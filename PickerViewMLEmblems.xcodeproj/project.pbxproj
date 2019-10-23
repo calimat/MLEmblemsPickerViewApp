@@ -15,8 +15,8 @@
 		8CCED5A5235F773F00A127D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCED5A3235F773F00A127D8 /* LaunchScreen.storyboard */; };
 		8CCED5B0235F774000A127D8 /* PickerViewMLEmblemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCED5AF235F774000A127D8 /* PickerViewMLEmblemsTests.swift */; };
 		8CCED5BB235F774000A127D8 /* PickerViewMLEmblemsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCED5BA235F774000A127D8 /* PickerViewMLEmblemsUITests.swift */; };
-		8CCED6292360D3A700A127D8 /* MLFragments2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCED6272360D39E00A127D8 /* MLFragments2_0.framework */; };
-		8CCED62A2360D3A700A127D8 /* MLFragments2_0.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCED6272360D39E00A127D8 /* MLFragments2_0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8CCED62D23610E7300A127D8 /* MLFragments2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCED62B23610E6B00A127D8 /* MLFragments2_0.framework */; };
+		8CCED62E23610E7300A127D8 /* MLFragments2_0.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCED62B23610E6B00A127D8 /* MLFragments2_0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8CCED62A2360D3A700A127D8 /* MLFragments2_0.framework in Embed Frameworks */,
+				8CCED62E23610E7300A127D8 /* MLFragments2_0.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,7 +65,7 @@
 		8CCED5B6235F774000A127D8 /* PickerViewMLEmblemsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerViewMLEmblemsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCED5BA235F774000A127D8 /* PickerViewMLEmblemsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewMLEmblemsUITests.swift; sourceTree = "<group>"; };
 		8CCED5BC235F774000A127D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CCED6272360D39E00A127D8 /* MLFragments2_0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MLFragments2_0.framework; sourceTree = "<group>"; };
+		8CCED62B23610E6B00A127D8 /* MLFragments2_0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MLFragments2_0.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CCED6292360D3A700A127D8 /* MLFragments2_0.framework in Frameworks */,
+				8CCED62D23610E7300A127D8 /* MLFragments2_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +97,7 @@
 		8CCED58C235F773A00A127D8 = {
 			isa = PBXGroup;
 			children = (
-				8CCED6272360D39E00A127D8 /* MLFragments2_0.framework */,
+				8CCED62B23610E6B00A127D8 /* MLFragments2_0.framework */,
 				8CCED597235F773A00A127D8 /* PickerViewMLEmblems */,
 				8CCED5AE235F774000A127D8 /* PickerViewMLEmblemsTests */,
 				8CCED5B9235F774000A127D8 /* PickerViewMLEmblemsUITests */,

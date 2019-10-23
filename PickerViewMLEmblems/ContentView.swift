@@ -36,7 +36,12 @@ struct ContentView: View {
                         let dateFormatWrapper = DateFormatterWrapper()
                         let stringDate = dateFormatWrapper.string(date: Date())
                         
-                        self.nextDate =                      self.emblemDater.getNextAvailableDateFor(emblem: Emblems(rawValue: emblemsRawValueArray[self.emblemIndex])!, currentDate: stringDate)
+                        
+                        let nextDate =                      self.emblemDater.getNextAvailableDateFor(emblem: Emblems(rawValue: emblemsRawValueArray[self.emblemIndex])!, currentDate: stringDate)
+                        
+                       
+                        self.nextDate = nextDate.description
+                        
                         
                         
                     }) {
