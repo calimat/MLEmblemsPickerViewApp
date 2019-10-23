@@ -10,10 +10,13 @@ import SwiftUI
 import MLFragments2_0
 
 struct ContentView: View {
-    
+    var emblemDater : EmblemDater
     @State private var emblemIndex = 0
     @State private var nextDate = "hllo"
-   
+
+    init(emblemDater:EmblemDater?) {
+        self.emblemDater = emblemDater!
+    }
     
     let emblemFighter = Emblems.Fighter
     var body: some View {
@@ -29,13 +32,11 @@ struct ContentView: View {
                              }
                 Section{
                     Button(action: {
-                         var embDater: EmblemDater = EmblemDater(dateFromatAdapter: DateFormatterWrapper())
-                      
                        
                         let dateFormatWrapper = DateFormatterWrapper()
                         let stringDate = dateFormatWrapper.string(date: Date())
-                          
-                        self.nextDate =                      embDater.getNextAvailableDateFor(emblem: Emblems(rawValue: emblemsRawValueArray[self.emblemIndex])!, currentDate: stringDate)
+                        
+                        self.nextDate =                      self.emblemDater.getNextAvailableDateFor(emblem: Emblems(rawValue: emblemsRawValueArray[self.emblemIndex])!, currentDate: stringDate)
                         
                         
                     }) {
@@ -53,7 +54,8 @@ struct ContentView: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
+    var emblemDater : EmblemDater
     static var previews: some View {
-        ContentView()
+        ContentView(emblemDater: nil)
     }
 }
