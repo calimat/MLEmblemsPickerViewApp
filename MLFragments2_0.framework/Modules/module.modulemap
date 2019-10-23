@@ -1,0 +1,11 @@
+framework module MLFragments2_0 {
+  umbrella header "MLFragments2_0.h"
+
+  export *
+  module * { export * }
+}
+
+module MLFragments2_0.Swift {
+    header "MLFragments2_0-Swift.h"
+    requires objc
+}
