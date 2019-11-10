@@ -14,7 +14,7 @@ struct ContentView: View {
     @State private var emblemIndex = 0
     @State private var nextDate = "hllo"
 
-    init(emblemDater:EmblemDater?) {
+    init(emblemDater:EmblemDater?) /Users/calimat1/Documents/MLEmblemsPickerViewApp/PickerViewMLEmblems.xcodeproj{
         self.emblemDater = emblemDater!
     }
     
@@ -40,8 +40,7 @@ struct ContentView: View {
                         let nextDate =                      self.emblemDater.getNextAvailableDateFor(emblem: Emblems(rawValue: emblemsRawValueArray[self.emblemIndex])!, currentDate: stringDate)
                         
                        
-                        self.nextDate = nextDate.description
-                        
+                        self.nextDate = dateFormatWrapper.getFriendlyDate(date: nextDate)
                         
                         
                     }) {

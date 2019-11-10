@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MLFragments2_0-Swift.h</key>
 		<data>
-		e1oXTrJ9t8mmbq3nf/o9T8VIUWs=
+		zsiIVIH2o4qDtRrwg6l6+Tk7uSo=
 		</data>
 		<key>Headers/MLFragments2_0.h</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sQszBSLV8SY+Enc5UiVNovAugVw=
+		K8gzRcXtCV3vwuwcDPNJ+/TzlCc=
 		</data>
-		<key>Modules/MLFragments2_0.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/MLFragments2_0.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		An6JR60ZqC5ERS42lplElc4pSWs=
+		BjB5qyWaPmLL94VB9YMMlogUP1Q=
 		</data>
-		<key>Modules/MLFragments2_0.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/MLFragments2_0.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		6WMmkNOG+MwWo7TCLa7oiHS3LnE=
+		KDnXrjjFsKnwdFBKMXKGMvFai/A=
 		</data>
-		<key>Modules/MLFragments2_0.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/MLFragments2_0.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		An6JR60ZqC5ERS42lplElc4pSWs=
+		BjB5qyWaPmLL94VB9YMMlogUP1Q=
 		</data>
-		<key>Modules/MLFragments2_0.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/MLFragments2_0.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		6WMmkNOG+MwWo7TCLa7oiHS3LnE=
+		KDnXrjjFsKnwdFBKMXKGMvFai/A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JvFe8HVB71hfQ5SBoF+8AvI7QGx6E3YAisXzfG6VIJw=
+			fDh0DQ03VIbBjASuYxz6bcXZol+iwT4kqo063i6Yp7Q=
 			</data>
 		</dict>
 		<key>Headers/MLFragments2_0.h</key>
@@ -53,32 +53,32 @@
 			Pp36QtI8HcRNmAHXnnQp2WEnUaf375DAR05tMs3AtK4=
 			</data>
 		</dict>
-		<key>Modules/MLFragments2_0.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/MLFragments2_0.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qb4GjItYVGqCw2Ul4hF7m4//3cXKVRXXcFNr/39H5A0=
+			0XR3LdL+uZ2NUn++JPjuK//4ZCh9gyG4tAixaEZDAIU=
 			</data>
 		</dict>
-		<key>Modules/MLFragments2_0.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/MLFragments2_0.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OS46HwQegqvTIlK9+3i6z10VnTbQ6c28F+MsGJsN5WU=
+			8nairpwpS/zOhO+3Z93OQNnukyJ7ShgQfUKc5DwIomM=
 			</data>
 		</dict>
-		<key>Modules/MLFragments2_0.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/MLFragments2_0.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qb4GjItYVGqCw2Ul4hF7m4//3cXKVRXXcFNr/39H5A0=
+			0XR3LdL+uZ2NUn++JPjuK//4ZCh9gyG4tAixaEZDAIU=
 			</data>
 		</dict>
-		<key>Modules/MLFragments2_0.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/MLFragments2_0.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OS46HwQegqvTIlK9+3i6z10VnTbQ6c28F+MsGJsN5WU=
+			8nairpwpS/zOhO+3Z93OQNnukyJ7ShgQfUKc5DwIomM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
