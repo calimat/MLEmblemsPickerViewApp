@@ -14,7 +14,7 @@ struct ContentView: View {
     @State private var emblemIndex = 0
     @State private var nextDate = "hllo"
 
-    init(emblemDater:EmblemDater?) /Users/calimat1/Documents/MLEmblemsPickerViewApp/PickerViewMLEmblems.xcodeproj{
+    init(emblemDater:EmblemDater?) {
         self.emblemDater = emblemDater!
     }
     
