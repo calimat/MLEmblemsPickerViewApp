@@ -12,7 +12,7 @@ import MLFragments2_0
 struct ContentView: View {
     var emblemDater : EmblemDater
     @State private var emblemIndex = 0
-    @State private var nextDate = "hllo"
+    @State private var nextDate = "Please select emblem and press Get Date"
 
     init(emblemDater:EmblemDater?) {
         self.emblemDater = emblemDater!
