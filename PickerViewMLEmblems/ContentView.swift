@@ -40,7 +40,7 @@ struct ContentView: View {
                         let nextDate =                      self.emblemDater.getNextAvailableDateFor(emblem: Emblems(rawValue: emblemsRawValueArray[self.emblemIndex])!, currentDate: stringDate)
                         
                        
-                        self.nextDate = dateFormatWrapper.getFriendlyDate(date: nextDate)
+                        self.nextDate = dateFormatWrapper.getFriendlyDate(date: nextDate, with: TimeZone.current)
                         
                         
                     }) {
